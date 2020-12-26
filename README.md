@@ -3,7 +3,9 @@
 ## Development:
 
 OS: Windows 10
+
 Programming  language: python (3.6.8)
+
 Tools: Beautifulsoup4
 
 
@@ -14,24 +16,39 @@ This chatbot is designed to help you choose a cartoon to watch. You can choose o
 ### List of the commands:
 
 **[hi]** start communication
+
 **[help]** see options
+
 **[top]** see my favorite cartoons
+
 **[search]** find a cartoon by genre
+
 **[new]** check new cartoons
+
 **[about]** about chatbot
+
 **[cancel]** go back to user state
 
 ### List of the states:
 
 **[user]** user start state
+
 **[greeting]** greeting state
+
 **[options]** state to display functions of the chatbot
+
 **[list]** state for user to choose one of my favorite cartoons
+
 **[cartoon]** state to show a brief description of one of the cartoons
+
 **[genre]** state for user to choose the desired genre
+
 **[showgenre]** state to send links of the cartoons by genre
+
 **[new]** state to send links of the new cartoons
+
 **[about]** state to display information about chatbot
+
 **[cancel]** cancel state
 
 ### **The first greeting message:**
